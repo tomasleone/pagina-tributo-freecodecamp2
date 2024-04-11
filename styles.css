@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #002A4D; /* Azul  */ 
+  }
+  
+  .contenedor-principal {
+    margin: auto;
+    max-width: 800px;
+    background-color: #FFFFFF; /* Blanco */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+  }
+  
+  .titulo-principal h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  .titulo-principal h1 {
+    
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 20px; /* Espacio adicional arriba */
+    color: #75AADB; /* Amarillo */
+  }
+  
+  .titulo-principal p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px; /* Espacio adicional abajo */
+    padding: 10px;
+    background-color: #002A4D; /* Azul oscuro */
+    color: #FFFFFF; /* Blanco */
+    border-radius: 10px;
+  }
+  
+  .imagen-pagina {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar una sombra */
+  }
+  
+  .img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Agregar una transición suave */
+  }
+  
+  .img:hover {
+    transform: scale(1.03); /* Aumentar ligeramente el tamaño al pasar el mouse */
+  }
+  
+  
+  .imagen-texto p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .lineatiempo {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* Blanco */
+    border-radius: 10px;
+  }
+  
+  .titulolineatiempo {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 20px; /* Espacio adicional abajo */
+  }
+  
+  .listas {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .parrafo-final {
+    font-style: italic;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .texto-final {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #002A4D; /* Azul oscuro */
+  }
+  
+  @media screen and (max-width: 600px) {
+    .lineatiempo,
+    .contenedor-principal {
+      padding: 10px;
+    }
+  }
+  
